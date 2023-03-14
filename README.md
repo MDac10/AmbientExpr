@@ -3,19 +3,19 @@
 In the R script where you wish to use this algorithm...
 Load the contents of this algorithm, packages must be installed and are loaded:
 
-> install.packages("Matrix")
-> install.packages("proxy")
-> install.packages("mclust")
-> install.packages("vioplot")
-> library(Matrix) ...
+  > install.packages("Matrix")
+  > install.packages("proxy")
+  > install.packages("mclust")
+  > install.packages("vioplot")
+  > library(Matrix) ...
 
 The seurat package is also required to be able to use functions in this code package:
 
-> require(Seurat)
+  > require(Seurat)
 
 Either set the working directory to the folder that contains your input file or incorporate it into:
 
-> input <- readRDS('exampleFolder\\exampleInputFile.rds')
+  > input <- readRDS('exampleFolder\\exampleInputFile.rds')
 
 This input file should be preprocessed containing files, minimum:
 * unspliced_cells_matrix
