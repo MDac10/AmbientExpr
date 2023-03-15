@@ -3,11 +3,11 @@
 In the R script where you wish to use this algorithm...
 Load the contents of this algorithm, packages must be installed and are loaded:
 
-  > install.packages("Matrix")
-  > install.packages("proxy")
-  > install.packages("mclust")
-  > install.packages("vioplot")
-  > library(Matrix) ...
+  > - install.packages("Matrix")
+  > - install.packages("proxy")
+  > - install.packages("mclust")
+  > - install.packages("vioplot")
+  > - library(Matrix) ...
 
 The seurat package is also required to be able to use functions in this code package:
 
