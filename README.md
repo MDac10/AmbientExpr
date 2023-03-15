@@ -25,3 +25,10 @@ This input file should be preprocessed containing files, minimum:
 * ambient2_spliced
 * ambient2_unspliced
 
+## Function Specifics
+
+### Processing Functions
+
+Inputs for Spliced_Processing and Unspliced_Processing needs an indication of which ambient files to use (1 or 2):
+* Ambient file 1 contains all data including droplets with more RNA (>= 15 mRNA molecules detected) but not a valid cell - identified as ambient RNA
+* Ambient file 2 contains all data including droplets with low RNA (< 15 mRNA molecules detected) - identified as ambient RNA
